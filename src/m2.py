@@ -7,7 +7,7 @@ and on TypeError exceptions, in particular those of the form:
   'BLAHType' object is not callable.
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  December 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
@@ -38,9 +38,10 @@ import rosegraphics as rg
 #   *** ASK QUESTIONS AS NEEDED! ***
 #
 #   When you believe you understand these instructions,
-#   change the above TODO to DONE.
+#   change the above TO DO to DONE.
 #
 ########################################################################
+
 
 def main():
     """ Calls the   TEST   functions in this module. """

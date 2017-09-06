@@ -5,7 +5,7 @@ That is, no run-time exception occurs, but the function simply
 does not do the right thing.
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  December 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
@@ -35,7 +35,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #   *** ASK QUESTIONS AS NEEDED! ***
 #
 #   When you believe you understand these instructions,
-#   change the above TODO to DONE.
+#   change the above TO DO to DONE.
 #
 ########################################################################
 
@@ -45,7 +45,7 @@ def main():
 
 ########################################################################
 # Students:
-#   Do NOT touch the following  is_prime  function - it has no TODO.
+#   Do NOT touch the following  is_prime  function - it has no TO DO.
 #   Do NOT copy code from the  is_prime  function.
 #
 #   Instead, ** CALL ** this function as needed in the problems below.
@@ -96,6 +96,7 @@ def test_broken_1():
     actual = broken_1(1000)  # Test 3 of broken_1
     print('Expected:', expected)
     print('Actual:  ', actual)
+
 
 # ----------------------------------------------------------------------
 # TODO: 3. Follow the INSTRUCTIONS AT THE TOP OF THIS MODULE

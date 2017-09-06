@@ -2,7 +2,7 @@
 This module lets you practice DEBUGGING when RUN-TIME EXCEPTIONS occur.
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  December 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
@@ -26,8 +26,7 @@ import rosegraphics as rg
 #   To do this exercise, do the following:
 #
 #   Step 1:
-#     -- Read the green doc-string (but NOT the code)
-#          of the  broken_1  function.
+#     -- Read the doc-string (but NOT the code) of the  broken_1  function.
 #     -- Look at the  m1_pictures.pdf  file
 #          to see what output the tests should produce.
 #     -- ASK QUESTIONS AS NEEDED until you understand the specification
@@ -77,7 +76,7 @@ import rosegraphics as rg
 #   the next function, again proceeding according to the above steps.
 #
 #   When you believe you understand these instructions,
-#   change the above TODO to DONE.
+#   change the above TO DO to DONE.
 #
 ########################################################################
 
