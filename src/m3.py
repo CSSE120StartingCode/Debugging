@@ -75,7 +75,7 @@ def is_prime(n):
 # Students: Do NOT change any of the TEST functions.
 #           There are NO errors in the TESTS.
 ########################################################################
-def test_broken_1():
+def run_test_broken_1():
     """ Tests the  broken_1  function. """
     print()
     print('--------------------------------------------------')

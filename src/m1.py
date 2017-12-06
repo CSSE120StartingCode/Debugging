@@ -82,14 +82,14 @@ import rosegraphics as rg
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_all()
+    run_test_all()
 
 
 ########################################################################
 # Students: Do NOT change the following tests.
 #           There are NO errors in the TESTS.
 ########################################################################
-def test_all():
+def run_test_all():
     """ Tests ALL the functions in this module. """
     # Test broken_1:
     window = rg.RoseWindow(title='Testing BROKEN_1')
