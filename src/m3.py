@@ -4,12 +4,13 @@ This module lets you practice DEBUGGING when LOGIC ERRORS occur.
 That is, no run-time exception occurs, but the function simply
 does not do the right thing.
 
-Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
+         PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
-########################################################################
+###############################################################################
 #
 # TODO: 2. READ these instructions, ASKING QUESTIONS as needed.
 #
@@ -37,20 +38,20 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #   When you believe you understand these instructions,
 #   change the above TO DO to DONE.
 #
-########################################################################
+###############################################################################
 
 def main():
     """ Calls the   TEST   functions in this module. """
 
 
-########################################################################
+###############################################################################
 # Students:
-#   Do NOT touch the following  is_prime  function - it has no TO DO.
+#   Do NOT touch the following  is_prime  function - it has no _TODO_.
 #   Do NOT copy code from the  is_prime  function.
 #
 #   Instead, ** CALL ** this function as needed in the problems below.
 #   There are NO errors in this  is_prime  function.
-########################################################################
+###############################################################################
 def is_prime(n):
     """
     What comes in:  An integer n >= 2.
@@ -71,10 +72,10 @@ def is_prime(n):
     return True
 
 
-########################################################################
+###############################################################################
 # Students: Do NOT change any of the TEST functions.
 #           There are NO errors in the TESTS.
-########################################################################
+###############################################################################
 def run_test_broken_1():
     """ Tests the  broken_1  function. """
     print()
@@ -98,10 +99,10 @@ def run_test_broken_1():
     print('Actual:  ', actual)
 
 
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # TODO: 3. Follow the INSTRUCTIONS AT THE TOP OF THIS MODULE
 #          to correct the mistake(s) in the following function.
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 def broken_1(m):
     """
     What comes in: a positive integer m that is at least 2.
@@ -125,8 +126,7 @@ def broken_1(m):
         if is_prime(m):
             count = count + 1
 
-
-# ----------------------------------------------------------------------
-# Calls  main  to start the ball rolling.
-# ----------------------------------------------------------------------
+    # -----------------------------------------------------------------------------
+    # Calls  main  to start the ball rolling.
+    # -----------------------------------------------------------------------------
     main()
